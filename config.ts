@@ -11,8 +11,8 @@ export const window = {
 };
 
 export const api = {
-    ws: 'ws://launcher.adventoffire.ru/ws',
-    web: 'http://launcher.adventoffire.ru',
+    ws: 'wss://launcher.adventoffire.ru/wss',
+    web: 'https://launcher.adventoffire.ru',
     publicKey,
 };
 
