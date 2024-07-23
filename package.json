@@ -1,6 +1,6 @@
 {
-    "name": "aurora-launcher-app",
-    "version": "0.0.5-dev",
+    "name": "adventof-fire-app",
+    "version": "0.0.1-dev",
     "description": "Launcher for Minecraft",
     "main": "out/main/index-obf.loader.js",
     "private": true,
@@ -83,12 +83,12 @@
         }
     },
     "build": {
-        "appId": "ru.aurora.launcher",
-        "productName": "Aurora Launcher",
+        "appId": "ru.adventoffire",
+        "productName": "Adventof Fire",
         "publish": [
             {
                 "provider": "generic",
-                "url": "http://127.0.0.1:1370/files/release",
+                "url": "http://launcher.adventoffire.ru/files/release",
                 "channel": "latest"
             }
         ],

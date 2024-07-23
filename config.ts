@@ -1,25 +1,25 @@
 import publicKey from './public.pem?raw';
 
 export const window = {
-    width: 900,
-    height: 550,
+    width: 930,
+    height: 560,
     frame: false,
     resizable: false,
     maximizable: false,
     fullscreenable: false,
-    title: 'Aurora Launcher',
+    title: 'Adventof Fire',
 };
 
 export const api = {
-    ws: 'ws://127.0.0.1:1370/ws',
-    web: 'http://127.0.0.1:1370',
+    ws: 'ws://launcher.adventoffire.ru/ws',
+    web: 'http://launcher.adventoffire.ru',
     publicKey,
 };
 
-export const appPath = '.aurora-launcher';
+export const appPath = '.advent-of-fire';
 
 export const discordRPC = {
-    appId: '1214685301793103902',
+    appId: '1',
     default: {
         firstLineText: 'Тестирую лаунчер',
         secondLineText: 'Чувак, ты думал здесь что-то будет?',
