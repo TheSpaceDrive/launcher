@@ -7,7 +7,7 @@ export const window = {
     resizable: false,
     maximizable: false,
     fullscreenable: false,
-    title: 'Adventof Fire',
+    title: 'Advent of Fire',
 };
 
 export const api = {
@@ -19,47 +19,47 @@ export const api = {
 export const appPath = '.advent-of-fire';
 
 export const discordRPC = {
-    appId: '1',
+    appId: '1262454387138236508',
     default: {
-        firstLineText: 'Тестирую лаунчер',
-        secondLineText: 'Чувак, ты думал здесь что-то будет?',
+        firstLineText: 'Играю на проекте',
+        secondLineText: 'Присоединяйся к Advent of Fire',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Сайт',
+                url: 'https://adventoffire.ru/',
             },
         ],
-        largeImageKey: 'logo',
-        smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
-        smallImageText: 'Minecraft',
+        largeImageKey: 'ikonka',
+        smallImageKey: '',
+        largeImageText: 'Advent of Fire',
+        smallImageText: '',
     },
     profile: {
-        firstLineText: 'Выбираю тестируемый профиль игры',
-        secondLineText: 'Загружаю {server}',
+        firstLineText: 'Смотрю профиль',
+        secondLineText: 'Загружаю клиент {server}',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Сайт',
+                url: 'https://adventoffire.ru/',
             },
         ],
-        largeImageKey: 'logo',
-        smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
-        smallImageText: 'Minecraft',
+        largeImageKey: 'ikonka',
+        smallImageKey: '',
+        largeImageText: 'Advent of Fire',
+        smallImageText: '',
     },
     game: {
-        firstLineText: 'Играю на тестовом сервере',
-        secondLineText: 'Играю за {nickname}',
+        firstLineText: 'Играю на сервере',
+        secondLineText: 'Играю под ником {nickname}',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Сайт',
+                url: 'https://adventoffire.ru/',
             },
         ],
-        largeImageKey: 'logo',
-        smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
-        smallImageText: 'Minecraft',
+        largeImageKey: 'ikonka',
+        smallImageKey: '',
+        largeImageText: 'Advent of Fire',
+        smallImageText: '',
     }
 };

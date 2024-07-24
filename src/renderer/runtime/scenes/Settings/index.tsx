@@ -77,13 +77,13 @@ export default function Settings() {
                         <input
                             type="checkbox"
                             checked={settings.fullScreen}
-                            onChange={(e) =>{
+                            onChange={(e) =>
                                 setValue(
                                     'fullScreen',
                                     Boolean(e.target.checked),
                                 )
                             }
-                            }
+                            
                         />
                         <span className={classes.checkboxSwitch}></span>
                         Запуск игры во весь экран
