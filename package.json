@@ -89,7 +89,7 @@
         "publish": [
             {
                 "provider": "generic",
-                "url": "http://176.226.170.226:1370/files/release",
+                "url": "https://launcher.adventoffire.ru/files/release",
                 "channel": "latest"
             }
         ],
