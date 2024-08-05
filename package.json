@@ -1,6 +1,6 @@
 {
-    "name": "adventof-fire-app",
-    "version": "0.0.1-dev",
+    "name": "advent-of-fire-app",
+    "version": "0.0.2-dev",
     "description": "Launcher for Minecraft",
     "main": "out/main/index-obf.loader.js",
     "private": true,
